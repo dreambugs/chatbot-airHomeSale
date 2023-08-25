@@ -19,7 +19,7 @@ from langchain.prompts.chat import (
     HumanMessagePromptTemplate, # HumanMessagePromptTemplate는 사용자(인간) 메시지를 위한 템플릿
 )
 
-os.environ["OPENAI_API_KEY"] = "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" #Setup key
+os.environ["OPENAI_API_KEY"] = "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" #Setup key
 
 loader = PyPDFLoader("AIRCHAT_SCRIPT_ABOUT_AIRHOMES_PLATFORM-1.pdf")
 documents = loader.load()
